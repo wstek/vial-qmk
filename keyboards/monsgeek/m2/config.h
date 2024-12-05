@@ -33,3 +33,6 @@
 #define SNLED27351_I2C_ADDRESS_2 SNLED27351_I2C_ADDRESS_VDDIO
 #define I2C1_CLOCK_SPEED 400000 /* 400000 */
 #define I2C1_OPMODE OPMODE_I2C
+
+/* contact debounce & nkey rollover */
+#define DEBOUNCE 15
